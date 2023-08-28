@@ -26,7 +26,7 @@ cv2.createTrackbar('setVarMax', "Config", 10, 100, nothing)
 parser = argparse.ArgumentParser(description='This program shows how to use background subtraction methods provided by \
  OpenCV. You can process both videos and images.')
 parser.add_argument('--input', type=str, help='',
-                    default='rtsp://visual:visualrav1@10.60.86.95:554/cam/realmonitor?channel=1&subtype=0')
+                    default='')
 parser.add_argument('--algo', type=str, help='Background subtraction method (KNN, MOG2).', default='MOG2')
 args = parser.parse_args()
 
