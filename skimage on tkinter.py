@@ -92,5 +92,5 @@ class VideoPlayer:
         self.is_playing = False
 
 
-player = VideoPlayer("rtsp://visual:visualrav1@10.60.86.95:554/cam/realmonitor?channel=1&subtype=0")
+player = VideoPlayer()
 player.start()
